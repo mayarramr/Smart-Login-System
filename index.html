@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assign10.css">
+</head>
+<body>
+    <div class="login d-block" id="login">
+        <div class="smartLogin d-flex justify-content-center">
+            <div class="logInPage w-50 border border-4 border-info rounded-5 py-5 px-3">
+                <h1 class="text-capitalize text-center text-white lead display-4 pb-2">smart login system</h1>
+    <div class="w-75 mx-auto pb-4">
+        <input type="text" id="nameForm" class="form-control my-4 d-none" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter your name">
+        <input type="text" class="form-control my-4" id="emailLoginForm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter your email">
+        <input type="text" class="form-control my-4" id="passwordLoginForm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter your password">
+        <h6 id="emailExists" class="text-danger"></h6>
+        <button type="button" id="login" onclick="logingIn()" class="btn btn1 btn-info mb-4">Login</button>
+    
+    
+        <div class="d-flex justify-content-center align-items-center">
+            <h5 class="exist text-center me-4 mb-1 mt-1 text-white lead">Don't have an account ?</h5>
+            <button type="button" class="btn btn2 btn-outline-info" onclick="window.location.href='signup.html'">Sign Up</button>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+<div class="homePage login vh-100 d-none" id="homePage">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <a class="navbar-brand lead text-white">Smart Login.</a>
+              <button class="btn btn-info" onclick="window.location.href='index.html'">Logout</button>
+          </div>
+      </nav>
+
+     
+        <div id="welcomePage" class="container w-50 text-white border border-4 rounded-5 border-info text-center p-5 display-5 text-center mt-5">
+            
+        
+     </div>
+</div>
+    <script src="bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assign10.js"></script>
+</body>
+</html>

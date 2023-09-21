@@ -1,0 +1,40 @@
+.login{
+    background-image: linear-gradient(to bottom right, #000000, #0b0f66db);
+}
+.smartLogin{
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+.navbar{
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.397);
+}
+@media screen and (max-width:576px){
+    .signInPage{
+        width: 100% !important;
+        margin: 20px;
+    }
+    .btn1{
+        width: 70px;
+        height: 30px;
+        font-size: 14px;
+        padding: 0px;
+    }
+    .btn2{
+        width: 70px;
+        height: 30px;
+        font-size: 14px;
+        padding: 0px;
+    }
+    .exist{
+        font-size: 17px;
+        margin: 0 !important;
+    }
+    .logInPage{
+        width: 100% !important;
+        margin: 20px;
+        margin-bottom: 20% !important;
+    }
+    #welcomePage{
+        width: 90% !important;
+    }
+}
